@@ -1,0 +1,37 @@
+.AboutCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.StatsCont {
+  display: flex;
+  flex-direction: row;
+  padding-block: 5rem;
+  gap: 5rem;
+}
+
+@media (width < 768px) {
+  .StatsCont {
+    flex-direction: column;
+  }
+}
+
+.Stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Stats h1 {
+  color: var(--black);
+}
+
+.Stats .StatsP {
+  margin-top: 1rem;
+  max-width: 300px;
+  text-align: center;
+}

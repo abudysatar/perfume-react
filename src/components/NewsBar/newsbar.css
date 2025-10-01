@@ -1,0 +1,29 @@
+.newsBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black);
+  background-color: var(--green);
+  text-align: center;
+  margin-inline: -40px;
+  padding-block: 10px;
+  line-height: 140%;
+  padding-inline: 1rem;
+}
+
+.newsBar button {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  background-color: var(--green);
+}
+
+@media (width < 768px) {
+  .newsBar {
+    margin-inline: -20px;
+  }
+}

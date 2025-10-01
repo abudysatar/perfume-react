@@ -1,0 +1,33 @@
+.StandardBar {
+  padding: 1rem 0;
+  background-color: var(--orange);
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: clamp(1.5rem, 0.9681rem + 1.7021vw, 2.5rem);
+  overflow-x: auto;
+  user-select: none;
+  margin-inline: -40px;
+}
+
+.StandardBar img {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  padding-left: 0.5rem;
+}
+
+.textConts {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+@media (width < 768px) {
+  .StandardBar {
+    margin-inline: -20px;
+  }
+}

@@ -1,0 +1,70 @@
+.perfumeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block: 5rem;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.cardImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.cardBtn {
+  background-color: var(--green);
+  font-weight: bold;
+}
+
+.cardBtn:hover {
+  background-color: var(--red);
+}
+
+.onSale {
+  background-color: var(--orange);
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: unset;
+  user-select: none;
+}
+
+.onSale:hover {
+  background-color: var(--orange);
+}
+
+@media (width < 1000px) {
+  .cardContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (width < 500px) {
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+  .cardBtn {
+    width: fit-content;
+  }
+  .card {
+    margin-inline: auto;
+    width: fit-content;
+  }
+  .perfumeSection h2 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}

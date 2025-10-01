@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epunda Slab", serif;
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+  background-color: var(--lightPink);
+}
+
+:root {
+  /* color var */
+  --black: black;
+  --lightPink: #fff0f7;
+  --red: #dd6249;
+  --green: #abb249;
+  --orange: #e8a94c;
+  --white: white;
+}
+
+/* ------------------------------ */
+/* text var */
+.heading1 {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.heading2 {
+  font-size: clamp(1.5rem, 0.9681rem + 1.7021vw, 2.5rem);
+  font-weight: 300;
+}
+.heading3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.heading4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.heading5 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.heading6 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.pargraf1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.pargraf2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.pargraf3 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.pargraf4 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* ------------------------------ */
+/* btn var */

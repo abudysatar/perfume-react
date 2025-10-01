@@ -1,0 +1,14 @@
+.BlogThree {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 5rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  @media (width < 768px) {
+    grid-template-columns: 1fr;
+  }
+}

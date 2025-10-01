@@ -1,0 +1,16 @@
+.rounded {
+  padding-inline: 24px;
+  padding-block: 12px;
+  text-align: center;
+  background-color: var(--white);
+  color: black;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.rounded:hover {
+  background-color: var(--green);
+}

@@ -1,0 +1,19 @@
+.brandP {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  flex-wrap: wrap;
+  margin-block: 2.5rem;
+}
+
+.brand-logo {
+  width: 5rem;
+  height: auto;
+  object-fit: cover;
+}
