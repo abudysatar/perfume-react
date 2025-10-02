@@ -1,5 +1,5 @@
 import React from "react";
-import "./StandardDetals.css";
+import "./standardDetals.css";
 
 const StandardDetals = () => {
   const items = [
