@@ -10,6 +10,7 @@
     "predeploy": "pnpm build"
   },
   "dependencies": {
+    "@carbon/icons-react": "^11.68.0",
     "@radix-ui/react-accordion": "^1.2.12",
     "clsx": "^2.1.1",
     "radix-ui": "^1.4.3",
