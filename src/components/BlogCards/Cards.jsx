@@ -1,4 +1,4 @@
-import "./Cards.css";
+import "./cards.css";
 import clsx from "clsx";
 import { DotMark } from "@carbon/icons-react";
 import { Link } from "react-router-dom";
