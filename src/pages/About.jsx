@@ -1,6 +1,6 @@
 import Hero from "../components/Hero/Hero";
 import Button from "../components/Button/Button.jsx";
-import Stats from "../components/Stats/stats.jsx";
+import Stats from "../components/Stats/Stats.jsx";
 import FAQ from "../components/Q&A/Faq.jsx";
 
 const About = () => {
