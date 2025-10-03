@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import Button from "../Button/Button";
 const Contact = () => {
   return (
     <section className="ContactContainer">
@@ -24,6 +25,9 @@ const Contact = () => {
           ></textarea>
         </form>
       </div>
+      <Button rounded className={"ContactBtn"}>
+        SEND MESSAGE
+      </Button>
     </section>
   );
 };

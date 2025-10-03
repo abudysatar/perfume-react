@@ -1,13 +1,20 @@
 import PerfumeSlide from "../components/Perfume/PerfumeSlide";
 import Standard from "../components/Standard/Standard";
 import StandardBar from "../components/standardBar/StandardBar";
-import StandardDetals from "../components/standardDetals/StandardDetals";
+import StandardDetals from "../components/standardDetals/standardDetals";
 import Rated from "../components/Rated/Rated";
 import Hero from "../components/Hero/Hero";
 import Brands from "../components/Hero/Brands.jsx";
 import Button from "../components/Button/Button.jsx";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <Hero

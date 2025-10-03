@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const Standard = () => {
   return (
     <section className="standardContainer">
-      <img src="public/sectionImage/section.png" alt="" />
+      <img src="/sectionImage/section.png" alt="" />
       <div className="standardTxt">
         <h2 className="heading2">Smell like a dream.</h2>
         <p>

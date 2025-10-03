@@ -10,7 +10,11 @@ const About = () => {
         img={"/Hero/Section Split Image Banner.png"}
         title={"Our guiding principles."}
         fullHight
-        button={<Button rounded={true}>SHOP OUR FRAGRANCES</Button>}
+        button={
+          <Button href={"/collection"} rounded={true}>
+            SHOP OUR FRAGRANCES
+          </Button>
+        }
       />
       <Stats />
       <Hero

@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./Rated.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import { Star } from "@carbon/icons-react";
+import { ArrowLeft, ArrowRight, Star } from "@carbon/icons-react";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -88,8 +88,12 @@ const Rated = () => {
 
       {/* Custom buttons */}
       <div className="rated-nav">
-        <button onClick={() => swiperRef.current?.slidePrev()}>←</button>
-        <button onClick={() => swiperRef.current?.slideNext()}>→</button>
+        <button onClick={() => swiperRef.current?.slidePrev()}>
+          <ArrowLeft Add size="25" />
+        </button>
+        <button onClick={() => swiperRef.current?.slideNext()}>
+          <ArrowRight Add size="25" />
+        </button>
       </div>
     </section>
   );
