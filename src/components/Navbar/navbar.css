@@ -56,15 +56,11 @@
     position: fixed;
     flex-direction: column;
     width: 70%;
-    padding: 0.5rem;
+    padding: 0.3rem 0;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .navBarImg {
-    width: 100px;
-    height: auto;
     padding-block: 0.5rem;
     order: 0;
   }
@@ -119,4 +115,10 @@
       font-weight: 500;
     }
   }
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
 }

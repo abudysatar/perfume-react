@@ -28,7 +28,7 @@ const Navbar = ({ isNewsBar }) => {
         <a href="/about">ABOUT</a>
       </span>
       <Link className="navBarImg" to={"/"} onClick={handleClick}>
-        <img src="/PARFUM.svg" alt="logo" />
+        <img src="/PARFUM.svg" alt="logo" className="logo" />
       </Link>
 
       <span className={`pargraf4 rightNav ${isOpen ? "show" : ""}`}>
