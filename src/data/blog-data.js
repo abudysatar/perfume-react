@@ -5,7 +5,7 @@ const posts = [
     title: "Crafting your personal fragrance identity.",
     date: "July 9, 2023",
     readTime: "5 MIN READ",
-    image: "public/Blog/Image (1).png",
+    image: "/Blog/Image (1).png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const posts = [
     title: "Innovative ways to incorporate fragrance into your daily routine.",
     date: "July 9, 2023",
     readTime: "5 MIN READ",
-    image: "public/Blog/Image.png",
+    image: "/Blog/Image.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const posts = [
     title: "Exploring sustainable and ethical perfume choices.",
     date: "July 9, 2023",
     readTime: "5 MIN READ",
-    image: "public/Blog/Image (2).png",
+    image: "/Blog/Image (2).png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const posts = [
     title: "How perfumes affect your mood and confidence.",
     date: "July 9, 2023",
     readTime: "5 MIN READ",
-    image: "public/Blog/Image (3).png",
+    image: "/Blog/Image (3).png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const posts = [
     title: "A journey through perfume notes and memories.",
     date: "July 9, 2023",
     readTime: "5 MIN READ",
-    image: "public/Blog/Image (4).png",
+    image: "/Blog/Image (4).png",
   },
 ];
 
