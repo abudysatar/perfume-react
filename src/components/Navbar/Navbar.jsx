@@ -6,13 +6,6 @@ import { Link } from "react-router-dom";
 const Navbar = ({ isNewsBar }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   return (
     <div className="navbar" data-news={isNewsBar}>
       <button
@@ -27,7 +20,7 @@ const Navbar = ({ isNewsBar }) => {
         <a href="/collection">SHOP</a>
         <a href="/about">ABOUT</a>
       </span>
-      <Link className="navBarImg" to={"/"} onClick={handleClick}>
+      <Link className="navBarImg" to={"/"}>
         <img src="/PARFUM.svg" alt="logo" className="logo" />
       </Link>
 
